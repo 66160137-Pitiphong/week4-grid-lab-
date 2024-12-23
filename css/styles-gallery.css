@@ -48,7 +48,9 @@
     height: 100%;
     object-fit: cover;
     display: block;
-   }/* สําหรับแท็บเล็ต */
+   }
+   /* สํ
+าหรับแท็บเล็ต */
 @media (max-width: 768px) {
     .gallery {
     grid-template-columns: repeat(2, 1fr);
@@ -65,7 +67,8 @@
     flex: 0 1 calc(50% - 1rem);
     }
    }
-   /* สําหรับมือถือ */
+   /* สํ
+   าหรับมือถือ */
    @media (max-width: 480px) {
     .gallery {
     grid-template-columns: 1fr;
